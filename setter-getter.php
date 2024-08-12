@@ -134,7 +134,7 @@ class Game extends Product {
 }
 
 // Object-Type
-class CetakInfoProduk {
+class CetakInfoProduct {
     public function cetak( product $product ) {
         $str = "{$product->title} | {$product->getLabel()} (Rp. {$product->price})";
         return $str;
