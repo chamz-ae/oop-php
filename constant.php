@@ -12,7 +12,7 @@
 class Goodbye {
     const LEAVING_MESSAGE = "Hello World!";
 
-    public function byebye(){
+    public function byebye() {
         echo self::LEAVING_MESSAGE;
     }
 }
